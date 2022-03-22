@@ -4,7 +4,7 @@
     <title>Little' s Homepage</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Little is a student in Renmin University; HTML template by @afnizarnur">
+    <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
@@ -16,7 +16,7 @@
 	<style>
 		.intro h1:before {
 			/* Edit this with your name or anything else */
-			content: 'DRACO';
+			content: "";
 		}
 	</style>
 </head>
@@ -26,11 +26,12 @@
 		<div class="container">
 			<header class="group top-nav">
 				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">DRACO</span>
+				    <span class="logo"></span>
 				</div>
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#websites">Websites</a></li>
 				        <li><a href="#books">Books</a></li>
 				        <li><a href="#papers">Papers</a></li>
 				        <li><a href="#songs">Songs</a></li>
@@ -43,7 +44,7 @@
 	<!-- Introduction -->
 	<div class="intro section" id="about">
 		<div class="container">
-			<p>Hi, I’m  Li Tao</p>
+			<p>你好，我是良谦</p>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
 					<img src="img/photo.jpg" alt="Avatar">
@@ -52,7 +53,6 @@
 					<h1>I live in<br><span id="typed"></span></h1>
 				</div>
 				<p>
-					Li Tao is a postgraduate student in College of Finance, Renmin University. His major is Insurance. He is a member of Society of Actuaries and is pursuing an ASA certificate . 
 				</p>
 			</div>
 		</div>
@@ -150,7 +150,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["An Acient Country", "China", "Your Heart"],
+		strings: ["东方", "中国", "北京"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
